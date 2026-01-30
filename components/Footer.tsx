@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
       </ul>
       <ul className="flex gap-10 justify-center py-5">
-        <Link href="https://www.instagram.com/florian_dussen/" passHref>
+        <Link href="" passHref>
           <Image
             className="hover:scale-105 cursor-pointer"
             src="/instagram.svg"
@@ -32,8 +32,8 @@ const Footer = () => {
         </Link>
       </ul>
       <ul>
-        <Link href="/privacy-policy" className="text-gray-20 text-center hover:underline">
-        <p>florianvanderdussen@gmail.com</p>
+        <Link href="mailto:florianvanderdussen2@gmail.com" className="text-gray-20 text-center hover:underline">
+        <p>Send me an email!</p>
         </Link>
       </ul>
     </section>

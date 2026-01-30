@@ -57,8 +57,12 @@ export default function TimingGates() {
                 <p> I chose to attach the NRF module at the back side of the PCB for better protection and to reduce interference from other components, but also to remove any wiring. This also had favorable impact on the compact design. The arduino is installed on female headers to be replaceable. However, if a compact design is the main goal the arduino can also be soldered directly into the PCB saving around 1 cm of width.</p>
 
                 <h1 className="text-xl font-bold">Final Assembly and Usage</h1>
-                <p>After the PCBs were assembled, I moved on to assembly. The final Bill of Material can be seen in the picture below:</p>
-                <Image className='py-5'src="/BOM_Total.jpg" alt="Bill of Materials" width={800} height={600} />
+                <>After the PCBs were assembled, I moved on to assembly. I created a 3D-printed case to house all the components and attached a mounting hole that is universal for tripodmounts. This created a quick attachable solution for mounting the modules on tripods. The final assembly can be seen below:</>
+
+                <Image className='py-5'src="/Final1.jpg" alt="Final Assembly on track" width={800} height={600} />
+                <Image className='py-5'src="/Final2.jpg" alt="Close up of working screen" width={800} height={600} />
+                  
+                <p>The final Bill of Material can be seen in the picture below:</p>
                 The project consists of:
                 <ul>
                   <li>2x Arduino Nano</li>
@@ -70,6 +74,9 @@ export default function TimingGates() {
                   <li>Some sort of housing/case</li>
                   <li>Some JST connectors to connect the batteries and other components</li>
                 </ul>
+
+                <p>I used some hard to get components, and will be updating this version to be more accessible in the future. I will also be testing the final latency on track with some distance in between the sensors to verify my assumptions and calculations.</p>
+                <p>If anybody is interested in this project or wants to know more, feel free to contact me.</p>
             </div>
         </section>
     </>
