@@ -10,7 +10,7 @@ export default function TimingGates() {
                 <p>In sprinting accurate timing systems are an important factor for evaluating your performance. In top speed training this requires accuracy up to 0.001s at the most closest of finishes. In training athletes use such systems to accurately measure their sprinting performance and speed to improve their training quality.</p>
                 <p>Alternative systems are available for purchase, but they are often between 400 to a 1000 euros. This was not in my track and fields team's budget. Therefore, I set out to create my own alternative timing system. The system consists of 2 modules, a starting module and a finish module. More of these modules can be added in between to potentially calculate more split times, but this documentation focuses only on the start and finish module.</p>
 
-                <p>All files can be found and downloaded from this <Link href="https://github.com/your-repo-link" className="text-blue-600 hover:text-blue-800 underline">GitHub repository</Link>.</p>
+                <p>All files can be found and downloaded from this <Link href="https://github.com/FlorianvdDussen/ET_V6" className="text-blue-600 hover:text-blue-800 underline">GitHub repository</Link>.</p>
 
                 <h1 className="text-xl font-bold">Principles and working prototype.</h1>
                 <p>The base of the system is using a Photoelectric through-beam production line sensor from SICK. I acquired this sensor second hand for cheap. This option allowed for accurate tracking upto a frequency of a 1000hz. This also meant that I did not have to create my own photo electrc through-beam sensor, which could prove to be inaccurate. Any through-beam laser sensor can work for this project. </p>  
